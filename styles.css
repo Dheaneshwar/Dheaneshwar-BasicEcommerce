@@ -1,0 +1,76 @@
+.item input{
+    width:25px;
+}
+body{
+    background-color:rgb(219, 217, 217);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    background-color: black;
+    text-align:center;
+    margin:0;
+    width:auto;
+    color:white;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    margin:5px;
+    color:white;
+    width:330px;
+    background-color: grey;
+    padding:15px;
+    border-radius: 8px;;
+}
+.navbar h4{
+    text-align:left;
+    margin-left:10px;
+    margin-right:30px;
+    background-color: black;
+    color:white;
+    width:80px;
+    padding:4px;
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    flex-direction:column;
+    gap:8px;
+    width:auto;
+    align-items:center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 9px black;
+}
+img{
+    border:1px solid black;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:10px;
+    width:100%;
+    margin-top:10px;
+}
+.item img{
+    width:250px;
+    height:250px;
+    border:white;
+}
+.itemInfo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.costs{
+    display:flex;
+    gap:5px;
+}
+button{
+    width:250px;
+}
